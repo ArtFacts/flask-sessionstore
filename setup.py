@@ -12,20 +12,19 @@ from flask_sessionstore import __version__
 setup(
     name='Flask-Sessionstore',
     version=__version__,
-    url='https://github.com/mcrowson/flask-sessionstore',
-    license='BSD',
-    author='Matthew Crowson',
-    author_email='matthew.d.crowson@gmail.com',
     description='Adds session support to your Flask application',
     long_description=__doc__,
+    author='Matthew Crowson',
+    author_email='matthew.d.crowson@gmail.com',
+    maintainer='Ulrich Berthold',
+    maintainer_email='ub@artfacts.net',
+    url='https://github.com/Artfacts/flask-sessionstore',
+    license='BSD',
     packages=['flask_sessionstore'],
-    zip_safe=False,
-    include_package_data=True,
     platforms='any',
     install_requires=[
         'Flask>=2.3.2'
     ],
-    test_suite='test_session',
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
@@ -35,5 +34,6 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
-    ]
+    ],
+    zip_safe=False
 )
