@@ -2,7 +2,7 @@
 Flask-Session
 -------------
 
-Flask-Session is an extension for Flask that adds support for 
+Flask-Session is an extension for Flask that adds support for
 Server-side Session to your application.
 
 """
@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'Flask>=0.8'
+        'Flask>=2.3.2'
     ],
     test_suite='test_session',
     classifiers=[
